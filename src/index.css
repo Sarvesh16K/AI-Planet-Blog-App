@@ -11,3 +11,129 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.hackSub {
+  background-image: url(./images/waves.png);
+  width: auto;
+  height: 220px;
+}
+
+.Para {
+  position:absolute;
+  margin-left: 10%;
+  margin-right: 30%;
+}
+.img-col{
+  height: 100px;
+  width: 100px;
+  margin-left: 80%;
+  
+}
+.logo{
+  margin-left: 10%;
+}
+.buttonup{
+  text-align: center;
+  padding: 2px 20px;
+  background-color: rgb(47, 141, 47);
+  color: white;
+  border-radius: 15px;
+  border-color: rgb(47, 141, 47);
+}
+.searchbar-wrap{
+  background-color: white;
+  width: fit-content;
+  margin-left: 40%;
+}
+.searchbar-wrap span{
+  padding-right: -5rem;
+  cursor: pointer;
+}
+.blogList-wrap{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: left;
+  width: 80%;
+}
+.blogItem-wrap{
+  display: grid;;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3rem;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 30px 30px 30px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cover{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  margin: 15px 15px 15px 15px;
+}
+.BlogTitle{
+  width: 100%;
+  padding: 40% 5% 50% 5%;
+  font-size: 20px;
+  flex: 1;
+}
+.summary{
+  padding: 0% 10% 0% 10%;
+  grid-column: 1/3;
+}
+.up{
+  color: gray;
+  font-family: 'Garamond', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 0% 10% 0% 10%;
+}
+.post-detail-head{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #003366;
+}
+.post-img{
+  height: 40%;
+  width: 40%;
+  padding: 30% 40% 40% 40%;
+}
+.post-title{
+  color: white;
+  font-size: 40px;
+  text-align: left;
+  padding-top: 40%;
+}
+.post-btn{
+  padding-top: 20%;
+}
+.post-btn button{
+  height: 20%;
+  width: 60%;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: #003366;
+  color: white;
+  border-color: white;
+}
+.post-sum{
+  grid-column: 1/5;
+  padding: 1% 5% 5% 10%;
+  color: white;
+  font-size: 18px;
+}
+.post-lnk button{
+    height: 60px;
+    width: 150px;
+    margin: 10px;
+    border-radius: 20px;
+    border-color: black;
+    color: white;
+    margin: 10%;
+}
+.post-star button{
+  color: white;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-color: white;
+  background-color: #003366;
+  border-radius: 40px;
+}
